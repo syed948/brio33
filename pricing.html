@@ -93,11 +93,11 @@ img,svg{display:block;}
 }
 .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:16px 32px;max-width:var(--wrap);margin:0 auto;}
 .logo{display:inline-flex;text-decoration:none;}
-.logo-stack{display:flex;flex-direction:column;line-height:1;gap:5px;}
-.logo-word{font-family:var(--font-display);font-weight:800;font-size:1.42rem;letter-spacing:-0.02em;color:var(--ink);background:linear-gradient(105deg,var(--ink) 42%,var(--voice) 50%,var(--ink) 58%);background-size:250% 100%;background-position:120% 0;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:brioSweep 6s ease-in-out infinite;}
+.logo-stack{display:flex;flex-direction:column;line-height:1;}
+.logo-word{font-family:var(--font-display);font-weight:800;font-size:1.55rem;letter-spacing:-0.025em;color:var(--ink);background:linear-gradient(105deg,var(--ink) 42%,var(--voice) 50%,var(--ink) 58%);background-size:250% 100%;background-position:120% 0;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:brioSweep 6s ease-in-out infinite;}
 .logo-word .three{-webkit-text-fill-color:var(--voice);animation:brioBreathe 2.6s ease-in-out infinite;}
-.logo-sub{font-family:var(--font-mono);font-size:.52rem;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap;}
-.logo-sub b{font-weight:600;color:var(--voice);}
+
+
 @keyframes brioSweep{0%,18%{background-position:120% 0}55%,100%{background-position:-30% 0}}
 @keyframes brioBreathe{0%,100%{opacity:1}50%{opacity:.55}}
 @media (prefers-reduced-motion:reduce){.logo-word,.logo-word .three{animation:none;}}
@@ -502,8 +502,7 @@ footer{border-top:1px solid var(--line);padding:52px 0 60px;margin-top:96px;back
     <div class="nav-inner">
       <a href="index.html" class="logo" aria-label="Brio3 home">
         <span class="logo-stack">
-          <span class="logo-word">Brio<span class="three">3</span></span>
-          <span class="logo-sub">Powered by <b>Brandigade</b></span>
+          <span class="logo-word">brio<span class="three">3</span></span>
         </span>
       </a>
       <button class="nav-burger" aria-label="Menu" aria-expanded="false">
@@ -631,8 +630,7 @@ footer{border-top:1px solid var(--line);padding:52px 0 60px;margin-top:96px;back
       <div>
         <a href="index.html" class="logo" aria-label="Brio3 home">
         <span class="logo-stack">
-          <span class="logo-word">Brio<span class="three">3</span></span>
-          <span class="logo-sub">Powered by <b>Brandigade</b></span>
+          <span class="logo-word">brio<span class="three">3</span></span>
         </span>
       </a>
         <div class="footer-tagline">Voice · ICP · Data · One agent</div>
